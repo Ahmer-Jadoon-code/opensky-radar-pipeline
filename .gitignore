@@ -1,0 +1,11 @@
+# Security
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+plugins/
+airflow.cfg
