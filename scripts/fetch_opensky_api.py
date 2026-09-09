@@ -21,7 +21,7 @@ def fetch_live_flights():
             response = requests.get(url, auth=(username, password), timeout=10)
         else:
             print("Using anonymous access (No credentials found)...")
-            response = requests.get(url, timeout=10)
+            res ponse = requests.get(url, timeout=10)
             
         response.raise_for_status() 
         
