@@ -9,6 +9,9 @@ An end-to-end automated data engineering pipeline built with **Apache Airflow**,
 
 ## Architecture Overview
 
+![OpenSky Pipeline Architecture](images/architecture.jpg)
+
+
 ```text
 [ OpenSky API ] 
        │
